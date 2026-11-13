@@ -1,0 +1,19 @@
+{
+    "NN": {
+        "hidden_layer_sizes": [
+            128,
+            64,
+            32
+        ],
+        "alpha": 0.001
+    },
+    "RF": {
+        "n_estimators": 300,
+        "max_depth": 12
+    },
+    "GB": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05
+    }
+}
